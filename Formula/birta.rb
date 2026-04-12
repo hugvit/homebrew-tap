@@ -1,25 +1,25 @@
 class Birta < Formula
   desc "Preview markdown files in the browser with GitHub-style rendering"
   homepage "https://github.com/hugvit/birta"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hugvit/birta/releases/download/v0.5.0/birta-aarch64-apple-darwin.tar.xz"
-      sha256 "ca02dd7c2e6e13e0c80781c854ed291b1764a82f09575a2b9c55989d59a748e0"
+      url "https://github.com/hugvit/birta/releases/download/v0.6.0/birta-aarch64-apple-darwin.tar.xz"
+      sha256 "210604c9ff5a9a262af99e0d206305217ceaf51be8dbf511dfab074d711500df"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hugvit/birta/releases/download/v0.5.0/birta-x86_64-apple-darwin.tar.xz"
-      sha256 "8411529545f00ff25b68604fc804a68ee94b60e027b88d318d37228f8f0689cf"
+      url "https://github.com/hugvit/birta/releases/download/v0.6.0/birta-x86_64-apple-darwin.tar.xz"
+      sha256 "f161bf0212d156e03434cf1173169543f5e375220352c081486a522d872e3be9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hugvit/birta/releases/download/v0.5.0/birta-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "858172b7385b403e8aeb19922b88c7cadfd39048d3a4c3017319eecc230f21da"
+      url "https://github.com/hugvit/birta/releases/download/v0.6.0/birta-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0c681a5b351bc6827ffdb6abade0d9e2f04196e4c63fe2859b98323aa5390428"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hugvit/birta/releases/download/v0.5.0/birta-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0b5a690866be0c2c728949ad490a5ab94b8d2f56f1942bf1d29f5843a6584fbc"
+      url "https://github.com/hugvit/birta/releases/download/v0.6.0/birta-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e84a68ad351bf384d1ac28537556b56cbd78770641257b0ca7634c8553a63080"
     end
   end
   license "MIT"
